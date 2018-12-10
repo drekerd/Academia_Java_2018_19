@@ -47,7 +47,7 @@ public class DBServiceTest {
         toSave.setLastName("Portas");
         toSave.setDob("1979-08-17");
         toSave.setGender("M");
-        toSave.setHireDate("1970-01-01");
+        //toSave.setHireDate("1970-01-01");
 
         Employee savedEmployee = service.insertEmployee(toSave);
 
@@ -68,7 +68,7 @@ public class DBServiceTest {
         toSave.setLastName("iiiiii");
         toSave.setDob("1979-08-17");
         toSave.setGender("M");
-        toSave.setHireDate("1970-01-01");
+        //toSave.setHireDate("1970-01-01");
 
         service.insertEmployee(toSave);
 

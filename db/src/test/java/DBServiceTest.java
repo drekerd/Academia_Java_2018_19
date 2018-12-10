@@ -80,42 +80,6 @@ public class DBServiceTest {
 
     }
 
-//    @Test
-//    public void getProperties_returnResultTrue() throws SQLException, ClassNotFoundException, IOException {
-//
-//        PropertiesConnection propertiesConnection = new PropertiesConnection();
-//
-//        Properties prop = new Properties();
-//        FileInputStream file;
-//
-//
-//        try{
-//            file = new FileInputStream("src/main/resources/db/db.properties");
-//
-//            if (file != null) {
-//                prop.load(file);
-//            } else {
-//                throw new FileNotFoundException("property file not found in the classpath");
-//            }
-//
-//            prop.load(file);
-//
-//            propertiesConnection.setDbuser(prop.getProperty("dbuser"));
-//            propertiesConnection.setDbpasswrod(prop.getProperty("dbpassword"));
-//            propertiesConnection.setDbase(prop.getProperty("dbase"));
-//            propertiesConnection.setJdbc(prop.getProperty("jdbcDriver"));
-//
-//
-//        }
-//        catch(IOException e)
-//        {
-//            e.printStackTrace();
-//        }
-//
-//
-//        Assert.assertTrue(propertiesConnection.getDbuser().equals("root"));
-//        Assert.assertTrue(propertiesConnection.getJdbc()
-//                .equals("jdbc:mysql://localhost/employees?user=root&password=password "));
-//    }
+
 
 }

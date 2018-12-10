@@ -115,7 +115,7 @@ public class DBServiceTest {
 
         Assert.assertTrue(propertiesConnection.getDbuser().equals("root"));
         Assert.assertTrue(propertiesConnection.getJdbc()
-                .equals("jdbc:mysql://localhost/employees?user=root&password=1909mm81"));
+                .equals("jdbc:mysql://localhost/employees?user=root&password=password "));
     }
 
 }
